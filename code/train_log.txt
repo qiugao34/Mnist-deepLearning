@@ -1,0 +1,330 @@
+num_epochs: 10
+learning_rate: 0.01
+optimizer: SGD
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+ultimate_train_accuracy: 0.9832
+ultimate_test_accuracy: 0.959
+Epoch: 1/10 Loss: 0.9141 Train Acc: 78.04% Test Acc: 78.60%
+Epoch: 2/10 Loss: 0.3346 Train Acc: 77.94% Test Acc: 79.10%
+Epoch: 3/10 Loss: 0.2381 Train Acc: 92.30% Test Acc: 90.20%
+Epoch: 4/10 Loss: 0.1882 Train Acc: 93.64% Test Acc: 91.50%
+Epoch: 5/10 Loss: 0.1594 Train Acc: 94.98% Test Acc: 93.30%
+Epoch: 6/10 Loss: 0.1364 Train Acc: 96.48% Test Acc: 95.60%
+Epoch: 7/10 Loss: 0.1193 Train Acc: 97.32% Test Acc: 95.50%
+Epoch: 8/10 Loss: 0.1039 Train Acc: 97.66% Test Acc: 95.30%
+Epoch: 9/10 Loss: 0.0929 Train Acc: 97.00% Test Acc: 94.60%
+Epoch: 10/10 Loss: 0.0847 Train Acc: 98.32% Test Acc: 95.90%
+
+num_epochs: 10
+learning_rate: 0.01
+optimizer: Adagrad
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+ultimate_train_accuracy: 0.9966
+ultimate_test_accuracy: 0.974
+Epoch: 1/10 Loss: 1.7005 Train Acc: 87.16% Test Acc: 87.50%
+Epoch: 2/10 Loss: 0.2180 Train Acc: 89.66% Test Acc: 88.70%
+Epoch: 3/10 Loss: 0.1426 Train Acc: 95.46% Test Acc: 94.20%
+Epoch: 4/10 Loss: 0.1066 Train Acc: 98.12% Test Acc: 95.90%
+Epoch: 5/10 Loss: 0.0863 Train Acc: 98.44% Test Acc: 96.40%
+Epoch: 6/10 Loss: 0.0698 Train Acc: 99.02% Test Acc: 97.20%
+Epoch: 7/10 Loss: 0.0571 Train Acc: 99.12% Test Acc: 97.20%
+Epoch: 8/10 Loss: 0.0480 Train Acc: 99.48% Test Acc: 97.00%
+Epoch: 9/10 Loss: 0.0410 Train Acc: 99.48% Test Acc: 97.20%
+Epoch: 10/10 Loss: 0.0353 Train Acc: 99.66% Test Acc: 97.40%
+
+num_epochs: 10
+learning_rate: 0.01
+optimizer: Adam
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+ultimate_train_accuracy: 0.9962
+ultimate_test_accuracy: 0.969
+Epoch: 1/10 Loss: 2.3856 Train Acc: 93.04% Test Acc: 93.10%
+Epoch: 2/10 Loss: 0.1911 Train Acc: 96.20% Test Acc: 94.70%
+Epoch: 3/10 Loss: 0.1154 Train Acc: 98.36% Test Acc: 96.90%
+Epoch: 4/10 Loss: 0.0748 Train Acc: 97.86% Test Acc: 96.40%
+Epoch: 5/10 Loss: 0.0631 Train Acc: 98.30% Test Acc: 96.50%
+Epoch: 6/10 Loss: 0.0457 Train Acc: 99.16% Test Acc: 97.20%
+Epoch: 7/10 Loss: 0.0520 Train Acc: 97.84% Test Acc: 95.30%
+Epoch: 8/10 Loss: 0.0475 Train Acc: 98.84% Test Acc: 96.80%
+Epoch: 9/10 Loss: 0.0353 Train Acc: 99.22% Test Acc: 98.00%
+Epoch: 10/10 Loss: 0.0220 Train Acc: 99.62% Test Acc: 96.90%
+
+num_epochs: 10
+learning_rate: 0.01
+optimizer: RMSProp
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+ultimate_train_accuracy: 0.9464
+ultimate_test_accuracy: 0.936
+Epoch: 1/10 Loss: 11.3996 Train Acc: 89.26% Test Acc: 90.00%
+Epoch: 2/10 Loss: 0.3401 Train Acc: 74.38% Test Acc: 75.40%
+Epoch: 3/10 Loss: 0.2201 Train Acc: 81.68% Test Acc: 84.60%
+Epoch: 4/10 Loss: 0.1519 Train Acc: 97.22% Test Acc: 95.40%
+Epoch: 5/10 Loss: 0.2136 Train Acc: 89.80% Test Acc: 89.80%
+Epoch: 6/10 Loss: 0.0987 Train Acc: 98.58% Test Acc: 97.80%
+Epoch: 7/10 Loss: 0.0806 Train Acc: 95.30% Test Acc: 94.90%
+Epoch: 8/10 Loss: 0.0661 Train Acc: 98.92% Test Acc: 96.40%
+Epoch: 9/10 Loss: 0.0486 Train Acc: 77.32% Test Acc: 77.30%
+Epoch: 10/10 Loss: 0.0626 Train Acc: 94.64% Test Acc: 93.60%
+
+num_epochs: 10
+learning_rate: 0.001
+optimizer: SGD
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+ultimate_train_accuracy: 0.9064
+ultimate_test_accuracy: 0.905
+Epoch: 1/10 Loss: 2.1004 Train Acc: 51.46% Test Acc: 52.60%
+Epoch: 2/10 Loss: 1.3097 Train Acc: 69.94% Test Acc: 70.20%
+Epoch: 3/10 Loss: 0.9621 Train Acc: 79.40% Test Acc: 79.10%
+Epoch: 4/10 Loss: 0.7667 Train Acc: 82.74% Test Acc: 83.40%
+Epoch: 5/10 Loss: 0.6448 Train Acc: 85.00% Test Acc: 86.20%
+Epoch: 6/10 Loss: 0.5627 Train Acc: 87.16% Test Acc: 87.20%
+Epoch: 7/10 Loss: 0.5033 Train Acc: 88.46% Test Acc: 88.90%
+Epoch: 8/10 Loss: 0.4581 Train Acc: 89.38% Test Acc: 89.50%
+Epoch: 9/10 Loss: 0.4224 Train Acc: 90.06% Test Acc: 90.70%
+Epoch: 10/10 Loss: 0.3943 Train Acc: 90.64% Test Acc: 90.50%
+
+num_epochs: 10
+optimizer: RMSProp
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+learning_rate: 0.1
+ultimate_train_accuracy: 0.5514
+ultimate_test_accuracy: 0.602
+Epoch: 1/10 Loss: 456.4639 Train Acc: 19.08% Test Acc: 19.10%
+Epoch: 2/10 Loss: 1.9280 Train Acc: 36.68% Test Acc: 36.60%
+Epoch: 3/10 Loss: 1.4442 Train Acc: 48.90% Test Acc: 50.30%
+Epoch: 4/10 Loss: 1.2029 Train Acc: 60.44% Test Acc: 60.00%
+Epoch: 5/10 Loss: 1.0232 Train Acc: 30.74% Test Acc: 31.00%
+Epoch: 6/10 Loss: 1.2661 Train Acc: 57.94% Test Acc: 59.80%
+Epoch: 7/10 Loss: 0.7459 Train Acc: 77.92% Test Acc: 78.10%
+Epoch: 8/10 Loss: 0.6117 Train Acc: 87.74% Test Acc: 88.00%
+Epoch: 9/10 Loss: 0.4646 Train Acc: 83.76% Test Acc: 83.10%
+Epoch: 10/10 Loss: 1.2351 Train Acc: 55.14% Test Acc: 60.20%
+learning_rate: 0.01
+ultimate_train_accuracy: 0.9464
+ultimate_test_accuracy: 0.936
+Epoch: 1/10 Loss: 11.3996 Train Acc: 89.26% Test Acc: 90.00%
+Epoch: 2/10 Loss: 0.3401 Train Acc: 74.38% Test Acc: 75.40%
+Epoch: 3/10 Loss: 0.2201 Train Acc: 81.68% Test Acc: 84.60%
+Epoch: 4/10 Loss: 0.1519 Train Acc: 97.22% Test Acc: 95.40%
+Epoch: 5/10 Loss: 0.2136 Train Acc: 89.80% Test Acc: 89.80%
+Epoch: 6/10 Loss: 0.0987 Train Acc: 98.58% Test Acc: 97.80%
+Epoch: 7/10 Loss: 0.0806 Train Acc: 95.30% Test Acc: 94.90%
+Epoch: 8/10 Loss: 0.0661 Train Acc: 98.92% Test Acc: 96.40%
+Epoch: 9/10 Loss: 0.0486 Train Acc: 77.32% Test Acc: 77.30%
+Epoch: 10/10 Loss: 0.0626 Train Acc: 94.64% Test Acc: 93.60%
+learning_rate: 0.001
+ultimate_train_accuracy: 0.9982
+ultimate_test_accuracy: 0.974
+Epoch: 1/10 Loss: 1.6969 Train Acc: 83.50% Test Acc: 84.20%
+Epoch: 2/10 Loss: 0.2050 Train Acc: 83.34% Test Acc: 83.30%
+Epoch: 3/10 Loss: 0.1292 Train Acc: 80.86% Test Acc: 80.40%
+Epoch: 4/10 Loss: 0.0933 Train Acc: 98.68% Test Acc: 96.50%
+Epoch: 5/10 Loss: 0.0687 Train Acc: 96.62% Test Acc: 96.20%
+Epoch: 6/10 Loss: 0.0603 Train Acc: 99.16% Test Acc: 96.80%
+Epoch: 7/10 Loss: 0.0302 Train Acc: 99.26% Test Acc: 97.00%
+Epoch: 8/10 Loss: 0.1029 Train Acc: 99.54% Test Acc: 97.30%
+Epoch: 9/10 Loss: 0.0166 Train Acc: 100.00% Test Acc: 97.80%
+Epoch: 10/10 Loss: 0.0075 Train Acc: 99.82% Test Acc: 97.40%
+
+num_epochs: 10
+optimizer: SGD
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+learning_rate: 0.1
+ultimate_train_accuracy: 0.9996
+ultimate_test_accuracy: 0.978
+Epoch: 1/10 Loss: 1.2220 Train Acc: 84.38% Test Acc: 84.00%
+Epoch: 2/10 Loss: 0.2196 Train Acc: 85.58% Test Acc: 85.10%
+Epoch: 3/10 Loss: 0.1332 Train Acc: 96.04% Test Acc: 94.20%
+Epoch: 4/10 Loss: 0.0884 Train Acc: 98.58% Test Acc: 97.00%
+Epoch: 5/10 Loss: 0.0576 Train Acc: 98.02% Test Acc: 95.40%
+Epoch: 6/10 Loss: 0.0496 Train Acc: 89.04% Test Acc: 88.00%
+Epoch: 7/10 Loss: 0.0692 Train Acc: 99.22% Test Acc: 97.40%
+Epoch: 8/10 Loss: 0.0236 Train Acc: 99.64% Test Acc: 97.00%
+Epoch: 9/10 Loss: 0.0163 Train Acc: 99.94% Test Acc: 97.80%
+Epoch: 10/10 Loss: 0.0103 Train Acc: 99.96% Test Acc: 97.80%
+learning_rate: 0.01
+ultimate_train_accuracy: 0.9832
+ultimate_test_accuracy: 0.959
+Epoch: 1/10 Loss: 0.9141 Train Acc: 78.04% Test Acc: 78.60%
+Epoch: 2/10 Loss: 0.3346 Train Acc: 77.94% Test Acc: 79.10%
+Epoch: 3/10 Loss: 0.2381 Train Acc: 92.30% Test Acc: 90.20%
+Epoch: 4/10 Loss: 0.1882 Train Acc: 93.64% Test Acc: 91.50%
+Epoch: 5/10 Loss: 0.1594 Train Acc: 94.98% Test Acc: 93.30%
+Epoch: 6/10 Loss: 0.1364 Train Acc: 96.48% Test Acc: 95.60%
+Epoch: 7/10 Loss: 0.1193 Train Acc: 97.32% Test Acc: 95.50%
+Epoch: 8/10 Loss: 0.1039 Train Acc: 97.66% Test Acc: 95.30%
+Epoch: 9/10 Loss: 0.0929 Train Acc: 97.00% Test Acc: 94.60%
+Epoch: 10/10 Loss: 0.0847 Train Acc: 98.32% Test Acc: 95.90%
+learning_rate: 0.001
+ultimate_train_accuracy: 0.9064
+ultimate_test_accuracy: 0.905
+Epoch: 1/10 Loss: 2.1004 Train Acc: 51.46% Test Acc: 52.60%
+Epoch: 2/10 Loss: 1.3097 Train Acc: 69.94% Test Acc: 70.20%
+Epoch: 3/10 Loss: 0.9621 Train Acc: 79.40% Test Acc: 79.10%
+Epoch: 4/10 Loss: 0.7667 Train Acc: 82.74% Test Acc: 83.40%
+Epoch: 5/10 Loss: 0.6448 Train Acc: 85.00% Test Acc: 86.20%
+Epoch: 6/10 Loss: 0.5627 Train Acc: 87.16% Test Acc: 87.20%
+Epoch: 7/10 Loss: 0.5033 Train Acc: 88.46% Test Acc: 88.90%
+Epoch: 8/10 Loss: 0.4581 Train Acc: 89.38% Test Acc: 89.50%
+Epoch: 9/10 Loss: 0.4224 Train Acc: 90.06% Test Acc: 90.70%
+Epoch: 10/10 Loss: 0.3943 Train Acc: 90.64% Test Acc: 90.50%
+
+num_epochs: 10
+optimizer: Adagrad
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+learning_rate: 0.1
+ultimate_train_accuracy: 0.9924
+ultimate_test_accuracy: 0.968
+Epoch: 1/10 Loss: 11.3816 Train Acc: 88.92% Test Acc: 89.00%
+Epoch: 2/10 Loss: 0.3308 Train Acc: 80.72% Test Acc: 81.90%
+Epoch: 3/10 Loss: 0.2114 Train Acc: 90.00% Test Acc: 90.10%
+Epoch: 4/10 Loss: 0.1462 Train Acc: 96.96% Test Acc: 94.60%
+Epoch: 5/10 Loss: 0.1101 Train Acc: 97.52% Test Acc: 95.70%
+Epoch: 6/10 Loss: 0.0871 Train Acc: 96.54% Test Acc: 96.50%
+Epoch: 7/10 Loss: 0.0731 Train Acc: 98.68% Test Acc: 96.80%
+Epoch: 8/10 Loss: 0.0565 Train Acc: 98.92% Test Acc: 96.30%
+Epoch: 9/10 Loss: 0.0448 Train Acc: 93.20% Test Acc: 92.50%
+Epoch: 10/10 Loss: 0.0430 Train Acc: 99.24% Test Acc: 96.80%
+learning_rate: 0.01
+ultimate_train_accuracy: 0.9966
+ultimate_test_accuracy: 0.974
+Epoch: 1/10 Loss: 1.7005 Train Acc: 87.16% Test Acc: 87.50%
+Epoch: 2/10 Loss: 0.2180 Train Acc: 89.66% Test Acc: 88.70%
+Epoch: 3/10 Loss: 0.1426 Train Acc: 95.46% Test Acc: 94.20%
+Epoch: 4/10 Loss: 0.1066 Train Acc: 98.12% Test Acc: 95.90%
+Epoch: 5/10 Loss: 0.0863 Train Acc: 98.44% Test Acc: 96.40%
+Epoch: 6/10 Loss: 0.0698 Train Acc: 99.02% Test Acc: 97.20%
+Epoch: 7/10 Loss: 0.0571 Train Acc: 99.12% Test Acc: 97.20%
+Epoch: 8/10 Loss: 0.0480 Train Acc: 99.48% Test Acc: 97.00%
+Epoch: 9/10 Loss: 0.0410 Train Acc: 99.48% Test Acc: 97.20%
+Epoch: 10/10 Loss: 0.0353 Train Acc: 99.66% Test Acc: 97.40%
+learning_rate: 0.001
+ultimate_train_accuracy: 0.9764
+ultimate_test_accuracy: 0.954
+Epoch: 1/10 Loss: 0.7886 Train Acc: 86.36% Test Acc: 86.20%
+Epoch: 2/10 Loss: 0.3233 Train Acc: 87.14% Test Acc: 86.20%
+Epoch: 3/10 Loss: 0.2450 Train Acc: 94.36% Test Acc: 93.00%
+Epoch: 4/10 Loss: 0.2026 Train Acc: 94.96% Test Acc: 93.50%
+Epoch: 5/10 Loss: 0.1775 Train Acc: 96.12% Test Acc: 94.50%
+Epoch: 6/10 Loss: 0.1568 Train Acc: 96.42% Test Acc: 95.10%
+Epoch: 7/10 Loss: 0.1421 Train Acc: 96.88% Test Acc: 95.00%
+Epoch: 8/10 Loss: 0.1293 Train Acc: 97.08% Test Acc: 95.30%
+Epoch: 9/10 Loss: 0.1193 Train Acc: 97.16% Test Acc: 95.30%
+Epoch: 10/10 Loss: 0.1116 Train Acc: 97.64% Test Acc: 95.40%
+
+num_epochs: 10
+optimizer: Adam
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+learning_rate: 0.1
+ultimate_train_accuracy: 0.092
+ultimate_test_accuracy: 0.102
+Epoch: 1/10 Loss: 14.2040 Train Acc: 10.42% Test Acc: 10.10%
+Epoch: 2/10 Loss: 2.3083 Train Acc: 11.08% Test Acc: 11.50%
+Epoch: 3/10 Loss: 2.3108 Train Acc: 9.38% Test Acc: 9.30%
+Epoch: 4/10 Loss: 2.3076 Train Acc: 11.08% Test Acc: 11.50%
+Epoch: 5/10 Loss: 2.3091 Train Acc: 10.62% Test Acc: 9.70%
+Epoch: 6/10 Loss: 2.3105 Train Acc: 9.50% Test Acc: 8.60%
+Epoch: 7/10 Loss: 2.3070 Train Acc: 9.20% Test Acc: 10.20%
+Epoch: 8/10 Loss: 2.3093 Train Acc: 10.34% Test Acc: 10.80%
+Epoch: 9/10 Loss: 2.3106 Train Acc: 11.08% Test Acc: 11.50%
+Epoch: 10/10 Loss: 2.3108 Train Acc: 9.20% Test Acc: 10.20%
+learning_rate: 0.01
+ultimate_train_accuracy: 0.9962
+ultimate_test_accuracy: 0.969
+Epoch: 1/10 Loss: 2.3856 Train Acc: 93.04% Test Acc: 93.10%
+Epoch: 2/10 Loss: 0.1911 Train Acc: 96.20% Test Acc: 94.70%
+Epoch: 3/10 Loss: 0.1154 Train Acc: 98.36% Test Acc: 96.90%
+Epoch: 4/10 Loss: 0.0748 Train Acc: 97.86% Test Acc: 96.40%
+Epoch: 5/10 Loss: 0.0631 Train Acc: 98.30% Test Acc: 96.50%
+Epoch: 6/10 Loss: 0.0457 Train Acc: 99.16% Test Acc: 97.20%
+Epoch: 7/10 Loss: 0.0520 Train Acc: 97.84% Test Acc: 95.30%
+Epoch: 8/10 Loss: 0.0475 Train Acc: 98.84% Test Acc: 96.80%
+Epoch: 9/10 Loss: 0.0353 Train Acc: 99.22% Test Acc: 98.00%
+Epoch: 10/10 Loss: 0.0220 Train Acc: 99.62% Test Acc: 96.90%
+learning_rate: 0.001
+ultimate_train_accuracy: 1.0
+ultimate_test_accuracy: 0.981
+Epoch: 1/10 Loss: 0.5872 Train Acc: 94.26% Test Acc: 93.10%
+Epoch: 2/10 Loss: 0.1580 Train Acc: 95.62% Test Acc: 94.20%
+Epoch: 3/10 Loss: 0.0911 Train Acc: 98.56% Test Acc: 95.90%
+Epoch: 4/10 Loss: 0.0422 Train Acc: 99.60% Test Acc: 97.10%
+Epoch: 5/10 Loss: 0.0217 Train Acc: 99.92% Test Acc: 97.40%
+Epoch: 6/10 Loss: 0.0136 Train Acc: 99.96% Test Acc: 97.40%
+Epoch: 7/10 Loss: 0.0095 Train Acc: 100.00% Test Acc: 97.50%
+Epoch: 8/10 Loss: 0.0061 Train Acc: 100.00% Test Acc: 97.70%
+Epoch: 9/10 Loss: 0.0033 Train Acc: 100.00% Test Acc: 97.80%
+Epoch: 10/10 Loss: 0.0024 Train Acc: 100.00% Test Acc: 98.10%
+
+num_epochs: 10
+optimizer: RMSProp
+batch_size: 64
+train_size: 5000
+test_size: 1000
+device: cuda:0
+learning_rate: 0.1
+ultimate_train_accuracy: 0.5514
+ultimate_test_accuracy: 0.602
+Epoch: 1/10 Loss: 456.4639 Train Acc: 19.08% Test Acc: 19.10%
+Epoch: 2/10 Loss: 1.9280 Train Acc: 36.68% Test Acc: 36.60%
+Epoch: 3/10 Loss: 1.4442 Train Acc: 48.90% Test Acc: 50.30%
+Epoch: 4/10 Loss: 1.2029 Train Acc: 60.44% Test Acc: 60.00%
+Epoch: 5/10 Loss: 1.0232 Train Acc: 30.74% Test Acc: 31.00%
+Epoch: 6/10 Loss: 1.2661 Train Acc: 57.94% Test Acc: 59.80%
+Epoch: 7/10 Loss: 0.7459 Train Acc: 77.92% Test Acc: 78.10%
+Epoch: 8/10 Loss: 0.6117 Train Acc: 87.74% Test Acc: 88.00%
+Epoch: 9/10 Loss: 0.4646 Train Acc: 83.76% Test Acc: 83.10%
+Epoch: 10/10 Loss: 1.2351 Train Acc: 55.14% Test Acc: 60.20%
+learning_rate: 0.01
+ultimate_train_accuracy: 0.9464
+ultimate_test_accuracy: 0.936
+Epoch: 1/10 Loss: 11.3996 Train Acc: 89.26% Test Acc: 90.00%
+Epoch: 2/10 Loss: 0.3401 Train Acc: 74.38% Test Acc: 75.40%
+Epoch: 3/10 Loss: 0.2201 Train Acc: 81.68% Test Acc: 84.60%
+Epoch: 4/10 Loss: 0.1519 Train Acc: 97.22% Test Acc: 95.40%
+Epoch: 5/10 Loss: 0.2136 Train Acc: 89.80% Test Acc: 89.80%
+Epoch: 6/10 Loss: 0.0987 Train Acc: 98.58% Test Acc: 97.80%
+Epoch: 7/10 Loss: 0.0806 Train Acc: 95.30% Test Acc: 94.90%
+Epoch: 8/10 Loss: 0.0661 Train Acc: 98.92% Test Acc: 96.40%
+Epoch: 9/10 Loss: 0.0486 Train Acc: 77.32% Test Acc: 77.30%
+Epoch: 10/10 Loss: 0.0626 Train Acc: 94.64% Test Acc: 93.60%
+learning_rate: 0.001
+ultimate_train_accuracy: 0.9982
+ultimate_test_accuracy: 0.974
+Epoch: 1/10 Loss: 1.6969 Train Acc: 83.50% Test Acc: 84.20%
+Epoch: 2/10 Loss: 0.2050 Train Acc: 83.34% Test Acc: 83.30%
+Epoch: 3/10 Loss: 0.1292 Train Acc: 80.86% Test Acc: 80.40%
+Epoch: 4/10 Loss: 0.0933 Train Acc: 98.68% Test Acc: 96.50%
+Epoch: 5/10 Loss: 0.0687 Train Acc: 96.62% Test Acc: 96.20%
+Epoch: 6/10 Loss: 0.0603 Train Acc: 99.16% Test Acc: 96.80%
+Epoch: 7/10 Loss: 0.0302 Train Acc: 99.26% Test Acc: 97.00%
+Epoch: 8/10 Loss: 0.1029 Train Acc: 99.54% Test Acc: 97.30%
+Epoch: 9/10 Loss: 0.0166 Train Acc: 100.00% Test Acc: 97.80%
+Epoch: 10/10 Loss: 0.0075 Train Acc: 99.82% Test Acc: 97.40%
+
